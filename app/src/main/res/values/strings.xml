@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">e开票</string>
+    <string name="invoice_code_title">发票代码</string>
+    <string name="invoice_number_title">发票号码</string>
+    <string name="input_purchaser_hint">购买方名称(必填)</string>
+    <string name="hint_purchaser_nsrsbh">纳税人识别号(必填)</string>
+    <string name="hint_purchaser_nsrsbh_opt">纳税人识别号(选填)</string>
+    <string name="hint_bank_info">购货单位开户行及账号(选填)</string>
+    <string name="hint_address_info">购货单位地址电话(选填)</string>
+    <string name="hint_bank_info_must">购货单位开户行及账号(必填)</string>
+    <string name="hint_address_info_must">购货单位地址电话(必填)</string>
+    <string name="invoice_count">发票份数</string>
+    <string name="invoice_count_hint">请输入发票份数</string>
+    <string name="start_number">起始号码</string>
+    <string name="start_number_hint">请输入起始号码</string>
+    <string name="end_number">终止号码</string>
+    <string name="splash_copyright">百望金赋科技有限公司\nCopyright©2016</string>
+    <string name="app_name_vision">百望金赋手机开票系统</string>
+    <string name="public_network_port">请输入服务器端口</string>
+    <string name="public_network_address">请输入服务器地址</string>
+    <string name="report_suffix">请输入抄报地址</string>
+
+    <string name="tel_number">收票人手机号</string>
+    <string name="hint_purchaser_mobile">收票人手机号(选填)</string>
+    <string name="hint_purchaser_mobile_must">收票人手机号(必填)</string>
+
+    <string name="again_loginout">再按一次退出</string>
+
+    <!--客户管理-->
+    <string name="customer_email_title">客&#160;户&#160;邮&#160;箱</string>
+    <string name="customer_name_title">客&#160;户&#160;名&#160;称</string>
+    <string name="customer_taxcode_title">客户识别号</string>
+    <string name="input_custom_name">请输入客户名称</string>
+    <string name="input_custom_taxcode">请输入客户识别号</string>
+    <string name="input_custom_email">请输入客户邮箱</string>
+    <string name="customer_manager">客户管理</string>
+    <string name="add_customer_info">添加客户信息</string>
+    <string name="add_customer_fail">添加客户信息失败</string>
+    <string name="get_customer_list_fail">获取客户列表失败</string>
+    <string name="update_customer_fail">修改客户列表失败</string>
+    <string name="delete_customer_fail">删除客户列表失败</string>
+    <string name="edit_customer_info">编辑客户信息</string>
+    <string name="noempty_customer_name">购方名称不能为空</string>
+    <string name="ischeck_customer_name">购方名称不可输入特殊符号</string>
+    <string name="ischeck_receive_name">收款人不可输入特殊符号</string>
+    <string name="drawer_name_bad">开票人不可输入特殊符号</string>
+    <string name="taxcode_length_less">购方识别号位数不正确</string>
+    <string name="goods_not_null">请添加商品</string>
+    <string name="ischeck_email">购方邮箱格式不正确</string>
+    <string name="remark">点击添加新客户</string>
+
+
+    <!--商品管理-->
+    <string name="name_title">商品名称</string>
+    <string name="price_title">含税单价</string>
+    <string name="unit_title">计量单位</string>
+    <string name="guige_title">规格型号</string>
+    <string name="sku_title">商品编码</string>
+    <string name="taxrate_title">税&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;率</string>
+    <string name="preferential_title">优惠政策</string>
+    <string name="tax_rate_mark">免税类型</string>
+    <string name="goods_manager">商品编码</string>
+    <string name="input_goods_name_hint">请输入商品名称</string>
+    <string name="input_goods_price_hint">请输入商品单价(选填)</string>
+    <string name="input_goods_unit_hint">请输入商品计量单位(选填)</string>
+    <string name="input_goods_discount_hint">请输入折扣或优惠(选填)</string>
+    <string name="delete_goods_fail">删除商品信息失败</string>
+    <string name="set_default_spbm_fail">默认商品编码设置失败</string>
+    <string name="api_not_founc_warnning">默认商品编码设置失败,请更新最新的app版本和最新的设备系统版本！</string>
+    <string name="noempty_goods_name">商品名称不能为空</string>
+    <string name="ischeck_goods_name">商品名称不可输入特殊字符</string>
+    <string name="ischeck_goods_discount">商品折扣不能大于100</string>
+    <string name="ischeck_goods_taxsku">商品编码不符合要求</string>
+    <string name="edit_goods_success">保存商品成功</string>
+    <string name="add_goods_info">添加商品信息</string>
+    <string name="edit_goods_info">修改商品信息</string>
+    <string name="api_not_founc">no find jqbh</string>
+
+    <string name="save">保&#160;存</string>
+
+    <!--商品编码-->
+
+    <!--打印机模块-->
+
+    <string name="cannot_found_wifi_remark">
+        1.目前暂不支持没有密码的网络，请确保要连接的路由器已设置密码。\n\n
+        2.目前暂不支持5GHz频段的网络，请选择2.4GHz频段的网络进行连接
+    </string>
+
+    <string name="get_ip_fail">获取IP地址信息失败</string>
+    <string name="connect_net_fail">网络连接失败</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_id">机身编码</string>
+    <string name="device_system_ver">系统版本</string>
+    <string name="device_model">设备型号</string>
+    <string name="input_receive_name">请输入收款人</string>
+    <string name="input_open_name">请输入开票人</string>
+    <string name="input_checker_name">请输入复核人</string>
+    <string name="input_buy_name">请输入购方名称</string>
+    <string name="add_fail">添加失败,已超出限定的行数</string>
+    <string name="goods_list_over_limit">商品列表已超出限定的行数</string>
+    <string name="invoice_number_query">号码查询</string>
+    <string name="time_query">日期查询</string>
+    <string name="no_send_query">未上传查询</string>
+    <string name="number_not_null">请输入发票起始号码</string>
+    <string name="endnumber_not_null">请输入发票终止号码</string>
+    <string name="please_input_code">请输入发票代码</string>
+    <string name="waiting_query">正在查询，请稍候...</string>
+    <string name="start_not_end">起始号码不能大于终止号码</string>
+    <string name="add_success">补打发票成功</string>
+
+    <string name="please_select_time">请选择起始日期</string>
+    <string name="please_select_end_time">请选择终止日期</string>
+    <string name="start_time_not_end_time">起始日期不能大于终止日期 </string>
+    <string name="no_query_data">无查询数据</string>
+    <string name="start_number_">起始号码</string>
+    <string name="please_input_start_number">请输入起始号码</string>
+    <string name="please_input_end_number">请输入终止号码</string>
+    <string name="end_number_">终止号码</string>
+    <string name="invoice_red">负数发票</string>
+    <string name="red_print_not_null">发票代码和号码不能为空</string>
+    <string name="red_print_already_print">负数发票已经打印过，无法再次打印</string>
+
+    <string name="please_input_number">请输入账号</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="account_number_not_null">账号不能为空</string>
+    <string name="wait_login"> 登录中...</string>
+
+    <!--操作员管理文字格式-->
+
+
+    <!--抄报界面-->
+    <string name="alertDialog_wait_info">"正在查询，请稍候..."</string>
+
+    <string name="taxpayer_number">"纳税人识别号为空"</string>
+
+    <!-- 网络购票界面 -->
+    <string name="net_get_invoice">网络购票无响应</string>
+    <string name="net_input_invoice_number">请输入发票份数</string>
+    <string name="surplus_number">剩余份数</string>
+
+    <string name="btn_net_get_invoice">网络购票</string>
+
+
+    <string name="bb">编码表版本号</string>
+    <string name="qysj">启用时间</string>
+    <string name="gdqjzsj">过渡期截止时间</string>
+    <string name="spbm">商品编码</string>
+    <string name="spmc">货物和劳务名称</string>
+    <string name="sm">说明</string>
+    <string name="zzssl">增值税税率</string>
+    <string name="gjz">关键字</string>
+    <string name="hzx">是否汇总项</string>
+    <string name="kyzt">可用状态</string>
+    <string name="zzstsgl">增值税特殊管理</string>
+    <string name="zzszcyj">增值税政策依据</string>
+    <string name="zzstsnrdm">增值税特殊内容代码</string>
+    <string name="xfsgl">消费税管理</string>
+    <string name="xfszcyj">消费税政策依据</string>
+    <string name="xfstsnrdm">消费税特殊内容代码</string>
+    <string name="tjjbm">统计局编码或国民行业代码</string>
+    <string name="hgjcksppm">海关进出口商品品目</string>
+    <string name="gxsj">商品编码的入库时间</string>
+
+    <string name="spbm_detail">编码详情</string>
+    <string name="spbm_name">商品编码</string>
+
+    <string name="spbm_name_sel">选择商品编码</string>
+
+    <!-- 税控设备参数 -->
+    <string name="jqbh_length_less">款机编号长度不正确</string>
+    <string name="sksbkl_length_less">税控设备口令位数不正确</string>
+    <string name="zskl_length_less">证书口令位数不正确</string>
+    <string name="bspkl_length_less">报税盘口令位数不正确</string>
+    <string name="chaobao_btn">抄报</string>
+    <string name="cannot_found_device"><u>找不到设备?</u></string>
+    <string name="startConfig">开始配置</string>
+    <string name="cannot_found_wifi"><u>找不到Wi-Fi?</u></string>
+    <string name="tax_disk_state">税控盘编号</string>
+    <string name="device_reset_pwd"><u>税控盘口令修改</u></string>
+    <!-- OTA升级 -->
+    <string name="action_retry">重试</string>
+    <string name="action_check">检查更新</string>
+    <string name="action_fetch">下载更新</string>
+    <string name="action_update">更新系统</string>
+    <string name="action_find_device">我的设备</string>
+    <string name="update_checking">正在检查更新... %d%%</string>
+    <string name="update_end">版本信息已更新</string>
+    <string name="package_fetching">正在下载更新包... %d%%</string>
+    <string name="package_fetch_done">更新包已经下载，正在开始校验... </string>
+    <string name="package_verifying">正在校验更新包... %d%%</string>
+    <string name="package_verify_pass">更新包校验已经完成</string>
+    <string name="package_verify_failed">更新包校验失败</string>
+    <string name="do_update_successed">设备正在更新系统，大约需要2分钟时间\n请不要断开或关闭设备的电源</string>
+    <string name="do_update_successed_dialog">设备正在更新系统\n大约需要2分钟时间\n请不要断开或关闭设备的电源</string>
+    <string name="do_update_done">设备的系统已经成功更新到新的版本</string>
+    <string name="do_update_failed">设备的系统更新失败</string>
+    <string name="do_update_failed_dlg">数据通信超时，设备是否已经重新启动了？</string>
+
+    <string name="invoice_title_left">xx印刷厂x年x月印x卷（100x1）00000000-00000000</string>
+    <string name="invoice_header">增 值 税 普 通 发 票 （卷 票）</string>
+    <string name="invoice_header_second">发    票    联</string>
+    <string name="invoice_rignt_hint">机打发票</string>
+    <string name="invoice_rignt_hint_second">手写无效</string>
+    <string name="machine_number">机打号码</string>
+    <string name="seller_name">销售方名称</string>
+    <string name="buyer_name">购买方名称</string>
+    <string name="machine_code">款机编号</string>
+    <string name="open_date">开票日期</string>
+    <string name="recevei">收款人</string>
+    <string name="project">项目</string>
+    <string name="tax_price">单价</string>
+    <string name="count">数量</string>
+    <string name="tax_money">金额</string>
+    <string name="rate">税率</string>
+    <string name="taxpayer_number_title">纳税人识别号</string>
+    <string name="start_number_error">发票份数输入有误</string>
+    <string name="please_input_invoice_count">请输入发票份数</string>
+    <string name="please_input_invoice_start_number">请输入起始号码</string>
+    <string name="total_money">合计金额(小写)</string>
+    <string name="total_money_b">合计金额(大写)</string>
+    <string name="total_tax_money">合计税额(小写)</string>
+    <string name="tax_money_s">价税合计(小写)</string>
+    <string name="tax_money_b">价税合计(大写)</string>
+    <string name="bz_remark">备注</string>
+    <string name="dzkpxe_title">开票限额(单张)</string>
+    <string name="auth_code">校验码</string>
+    <string name="dis_connect">断开连接</string>
+    <string name="connect_test">连接测试　　</string>
+    <string name="under_config_please_wait">正在配置设备，请耐心等待</string>
+    <string name="click_connect_device"><u>点击连接设备</u></string>
+    <string name="mine_device">我的设备</string>
+    <string name="device_parameter">设备参数</string>
+    <string name="printer_setup">打印机设置</string>
+    <string name="device_register_code">设备注册</string>
+    <string name="web_reset">网页版重置</string>
+    <string name="device_update">设备更新</string>
+    <string name="about_app">关于</string>
+    <string name="help_app">帮助</string>
+    <string name="mine_goods">我的商品</string>
+    <string name="checker_name_bad">复核人不可输入特殊符号</string>
+    <string name="check_purchaser_mobile">手机号不能为空</string>
+    <string name="device_code">机器编号</string>
+    <string name="connect_device_tips">请先连接设备</string>
+    <string name="non_config_device_title">机身编码后6位：</string>
+    <string name="config_device_title">机身编码：</string>
+    <string name="no_bsp_tips">未检测到报税盘，请检查设备是否插上了报税盘</string>
+    <string name="sjcb_waiting_tips">正在抄报，请稍后...</string>
+    <string name="jkhc_waiting_tips">正在返写，请稍后...</string>
+    <string name="payee">收款员</string>
+    <string name="exit">退出</string>
+    <string name="help">常见问题</string>
+    <string name="feedback">意见反馈</string>
+    <string name="input_num_character">0123456789-</string>
+    <string name="input_ip_number">0123456789.</string>
+    <string name="app_download_address">http://yunpiao.net/m/QrCode/toDownloadKpApp</string>
+    <string name="old_pwd_title">原&#160;&#160;口&#160;&#160;令</string>
+    <string name="new_pwd_title">新&#160;&#160;口&#160;&#160;令</string>
+    <string name="confirm_pwd_title">重复口令</string>
+    <string name="old_pwd_hint">请输入原口令</string>
+    <string name="new_pwd_hint">请输入新口令 (6~8位)</string>
+    <string name="confirm_pwd_hint">请重复新口令 (6~8位)</string>
+    <string name="tax_device_code">税控盘编号</string>
+    <string name="please_select_query_time">请选择查询日期</string>
+    <string name="query_time_illegal">查询日期不能大于当前日期</string>
+    <string name="scan_qrcode_tips">请将二维码放入框内，即可自动扫描</string>
+    <string name="no_select_spbm">请选择商品编码</string>
+    <string name="skp_descriptions">开票服务需要正确的税控盘口令和证书口令</string>
+    <string name="jdcs_descriptions">服务器参数用于发票抄报和发票领购等服务</string>
+    <string name="qyxx_descriptions">企业基本信息用于开具普通发票、电子发票和专用发票</string>
+    <string name="kpr_descriptions">请输入开票人员的名称和手机号</string>
+    <string name="no_skp_tips">未检测到税控盘，请检查设备是否接上了税控盘</string>
+    <string name="flat_setup_descriptions">打印发票样票，调整发票的打印位置</string>
+    <string name="roll_setup_descriptions">调整内置卷式打印机的参数</string>
+    <string name="no_printer_tips">没有检测到打印机，请检查设备是否接上了打印机</string>
+    <string name="force_unlock_waiting_tips">正在解锁，请稍后...</string>
+    <string name="ischeck_receive_remark">备注不能输入? &amp; €等特殊字符</string>
+    <string name="skp_jksj">税控盘信息</string>
+    <string name="query_invoice_not_existed">税控设备中没有找到此发票，是否继续通过服务器查询？</string>
+    <string name="query_invoice_not_found_on_server">此发票可以手工开具，是否继续开具？</string>
+    <string name="query_invoice_found_on_server">此发票的核准金额是：%s\n是否继续开具？</string>
+    <string name="ischeck_goods_ggxh">规格型号不可输入特殊字符</string>
+    <string name="ischeck_goods_unit">计量单位不能输入特殊字符</string>
+    <string name="roll_calibration_tips">1、请检查打印出来的校准页的各组效果\n2、选择其中<b> H 字母垂直方向对齐的一组</b></string>
+    <string name="change_paper_for_roll_calibration_tips">请确认打印纸是否已经更换为白纸</string>
+    <string name="confirm_printed_calibration_tips">请确认是否已经打印过校准页</string>
+    <string name="change_paper_for_pupiao_sample_tips">请确认打印纸已经更换为票样纸张</string>
+    <string name="how_to_choose_calibration"><u>怎么选择校准编号？</u></string>
+    <string name="applyWay">申请说明</string>
+    <string name="red_message_fill">红字信息表填开</string>
+    <string name="input_connect_tel">请输入联系电话</string>
+
+    <string name="connect_tel">联系电话</string>
+
+    <string name="about">说明</string>
+    <string name="apply_number">申请单号</string>
+    <string name="fill_date">填开日期</string>
+
+    <string name="buy_already_discount">购买方申请-对应蓝字专用发票已抵扣</string>
+    <string name="buy_already_no_discount">购买方申请-对应蓝字专用发票未抵扣</string>
+    <string name="sell_apply">销售方申请</string>
+    <string name="original_invoice_type_hint">原发票种类:  增值税专用发票</string>
+
+    <string name="name_title_hint">名&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;称</string>
+    <string name="title_sell_unit">销货单位</string>
+    <string name="title_buy_unit">购货单位</string>
+    <string name="apply_reason">申请理由</string>
+    <string name="hint_apply_reason">请输入申请理由</string>
+    <string name="title_apply_person">申请方经办人</string>
+
+    <string name="flat_setup_top_margin_hint">输入范围：-160 ~ 300，单位：0.1毫米</string>
+    <string name="flat_setup_left_margin_hint">输入范围：-90 ~ 300，单位：0.1毫米</string>
+    <string name="how_to_setup_flat_margin"><u>怎么调整挡板和边距？</u></string>
+    <string name="flat_setup_margin_help">
+一、打印纸挡板调整\n
+　A、打印机有<b>税票位置标识</b>：\n
+　　 把挡板放置在<b>税票位置标识</b>\n
+　B、打印机无<b>税票位置标识</b>：\n
+　　 把挡板放置在打印机<b>打印起始位置</b>\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;的左边13~15毫米\n
+　   常见的<b>打印起始位置</b>标识：\n
+　　 a、三角标识\n
+　　 b、标尺的零刻度\n
+\n
+　<b>*　打印样票和微调：</b>\n
+　　 打印样票后，若样票内容左右有偏\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;差，<b>请把挡板往相反方向调整</b>\n
+　　 例如：样票内容往右偏移了2毫米，挡\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;板位置就往左边移动2毫米\n
+\n
+二、上边距调整\n
+　　打印样票并调整上边距的偏移距离，\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;确保<b>密码区内容不超出密码区边框</b>\n</string>
+    <string name="confirm_save_margin_tips">确定需要保存当前的偏移参数？</string>
+    <string name="confirm_save_calibration_tips">确定需要保存当前的校准值？</string>
+    <string name="confirm_open_location_tips">位置定位功能已经关闭，将会搜索不到未配置的设备，请打开位置定位功能</string>
+    <string name="no_found_devices_tips">
+1. 关闭设备电源开关。\n
+2. 按住进纸键同时打开电源开关，状态灯熄灭时，松开进纸键。\n
+3. 当状态灯变为闪烁时，表示已经进入配置模式。\n
+4. 请打开手机的定位功能，并允许此应用使用定位权限。\n</string>
+    <string name="confirm_open_wifi_tips">Wi-Fi网络已经关闭，将会搜索不到设备，请打开Wi-Fi网络</string>
+    <string name="ct100_config_mode_help_title"><b>云票打印机 CT100</b></string>
+    <string name="ct100_config_mode_help">
+1、关闭设备电源开关；\n
+2、按住<b>进纸键</b>同时打开电源开关，状态灯熄灭时，松开进纸键；\n
+3、当状态灯变为闪烁时，设备已经进入配置模式；</string>
+    <string name="ct200_config_mode_help_title"><b>税控盒子 CT200</b></string>
+    <string name="ct200_config_mode_help">
+1、断开设备的电源；\n
+2、按住<b>配置键</b>同时打开设备的电源，状态灯熄灭时，松开配置键；\n
+3、当状态灯变为闪烁时，设备已经进入配置模式；</string>
+    <string name="app_config_mode_help_title"><b><b>手机设置</b></b></string>
+    <string name="app_config_mode_help">
+1、请打开手机的定位功能，并允许此应用使用定位权限；</string>
+    <string name="reconfig_wizard_tips">此设备已经设置了参数，是否需要重新设置？</string>
+
+</resources>
