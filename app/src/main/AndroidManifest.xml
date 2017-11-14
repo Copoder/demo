@@ -9,13 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".mainpage.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".fuction.fillout.InvoiceFilloutActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".fuction.invoicequery.InvoiceQueryActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".fuction.invalidinvoice.InvalidInvoice"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
     </application>
 
 </manifest>

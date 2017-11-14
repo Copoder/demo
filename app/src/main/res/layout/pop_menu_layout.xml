@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/id_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/id_linear_roll"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="15dip">-->
+
+    <!--<TextView-->
+    <!--style="@style/TextNormal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="增值税卷式发票" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/id_right_roll"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dip"-->
+    <!--app:srcCompat="@drawable/ic_current_mode" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/id_linear_normal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="15dip">-->
+
+    <!--<TextView-->
+    <!--style="@style/TextNormal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="增值税普通发票" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/id_right_normal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dip"-->
+    <!--app:srcCompat="@drawable/ic_current_mode" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

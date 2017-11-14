@@ -227,18 +227,6 @@
                     android:paddingLeft="@dimen/linearlayout_padding"
                     android:paddingRight="@dimen/linearlayout_padding">
 
-                    <ImageButton
-                        android:id="@+id/scanTitle"
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="8dp"
-                        android:background="@null"
-                        android:scaleType="centerInside"
-                        android:tint="@color/colorPrimary"
-                        app:srcCompat="@drawable/ic_scan"/>
-
                     <TextView
                         android:id="@+id/gmfmc"
                         style="@style/TextNormal"
@@ -255,7 +243,6 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="@dimen/content_margin"
-                        android:layout_toLeftOf="@id/scanTitle"
                         android:layout_toRightOf="@id/gmfmc"
                         android:background="@null"
                         android:hint="@string/input_purchaser_hint"

@@ -9,7 +9,6 @@
     >
     <ImageView
         android:id="@+id/img_left"
-        android:src="@drawable/new_ic_red_device_register"
         android:layout_width="30dp"
         android:layout_height="30dp" />
     <TextView

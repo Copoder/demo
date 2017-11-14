@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_gray">
+
+    <android.support.v7.widget.Toolbar
+        android:visibility="gone"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:navigationIcon="@drawable/ic_navigation_left"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="发票预览"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_size" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/margin_new"
+        android:paddingRight="@dimen/margin_new"
+        android:paddingTop="@dimen/half_grid"
+        android:paddingBottom="@dimen/half_grid">
+
+        <Button
+            android:id="@+id/make"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/background_white_circular_selector"
+            android:text="立即开票"
+            android:textColor="@color/text_selector"
+            android:textSize="@dimen/button_text_size" />
+
+
+        <LinearLayout
+            android:id="@+id/id_print_linear"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/preMakeNext"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/background_white_circular_selector"
+                android:text="继续开票"
+                android:textColor="@color/text_selector"
+                android:textSize="@dimen/button_text_size" />
+            <Button
+                android:id="@+id/print"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/background_white_circular_selector"
+                android:text="打印发票"
+                android:textColor="@color/text_selector"
+                android:textSize="@dimen/button_text_size"/>
+            <Button
+                android:id="@+id/print_qingdan"
+                android:visibility="gone"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/background_white_circular_selector"
+                android:text="打印清单"
+                android:textColor="@color/text_selector"
+                android:textSize="@dimen/button_text_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/makeNext"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/background_white_circular_selector"
+                android:text="继续开票"
+                android:textColor="@color/text_selector"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/makeDone"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_weight="1"
+                android:background="@drawable/background_white_circular_selector"
+                android:text="完成"
+                android:textColor="@color/text_selector"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@id/bottomBar"
+        android:overScrollMode="always"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.nisec.tcbox.flashdrawer.invoice.fupiao.ui.InvoiceNormalPreviewView
+                android:id="@+id/id_invoicedetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottomBar"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginBottom="5dip"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -11,7 +11,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
-import com.iunin.MyApplication;
+import com.iunin.demo.demo.base.MyApplication;
 import com.iunin.demo.demo.ui.widget.ContentLoadingDialog;
 
 
